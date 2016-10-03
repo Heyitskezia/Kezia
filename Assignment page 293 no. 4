@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+const double calories_per_minute = 3.6;
+
+int main() {
+  int i;
+  for(i = 5; i <= 30; i = i + 5) {
+    cout << "After " << i << " minutes, " << i * calories_per_minute
+         << " calories are consumed." << '\n';
+  }
+
+
+  return 0;
+}
